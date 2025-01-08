@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/Weather/assets/index-NeeoGXQG.js"></script>
+  <link rel="stylesheet" crossorigin href="/Weather/assets/index-CQn2wq7i.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header__container">
+            <div class="header__logo">
+                <div class="header__logo-text">Weather</div>
+                <div class="header__logo-time">20:00</div>
+            </div>
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link today-btn active">Сегодня</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link tomorrow-btn">Завтра</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link threeDays-btn">3 дня</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="elements">
+            <div class="container elements__container">
+                <div class="elements__input">
+                    <input class="input" type="text" placeholder="Введите название города">
+                    <span class="elements__input-recent">Недавние города:</span>
+                    <ul class="elements__input-suggestions" style="display:none;"></ul>
+                    <span class="elements__input-icon">🔍</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer__container">
+        </div>
+    </footer>
+</body>
+
+</html>
